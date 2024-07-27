@@ -34,4 +34,4 @@ conda install --yes --file requirements.txt
 
 # **Contact**
 - **Tech Lead:** João Marcos - ([Linkedin](https://www.linkedin.com/in/joaomj))
-- Deixe uma **star** para me ajudar!
+- Give me one **star** if you liked it!
