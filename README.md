@@ -63,9 +63,25 @@ The following steps were carried out:
 
 ## **Carts**
 
-### Daily Sales per Category
+### Total Sales in the Period
 
-![Daily Sales per Category](img/daily_sales.png)
+![Daily Sales](img/daily_sales.png)
+
+### Total Sold by Category
+
+![Total Sold by Category](img/total_sold_by_category.png)
+
+### Median Number of Items per Cart
+There were 4 products per cart.
+
+### Average Price per Cart
+Average price ber cart was $670.18
+
+### Correlation between Price per Cart and Number of Items per cart
+
+![Regression](img/order_size_vs_value_regression.png)
+
+The correlation between price per cart and number of items per cart is: 0.94
 
 # **References**
 - **FakeStore API:** https://fakestoreapi.com/
