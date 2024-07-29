@@ -18,7 +18,24 @@ The following steps were carried out:
 
 # **Results**
 ## **Products**
+### Prices and Ratings Distribution
+![Prices and Ratings Distribution](img/dist_prices_ratings_boxplot.png)
 
+**Price Quartiles**
+
+| Quartile | Price |
+|----------|-------|
+| 25%      | 15.24 |
+| 50%      | 56.49 |
+| 75%      | 110.96 |
+
+**Rating Quartiles**
+
+| Quartile | Rating |
+|----------|--------|
+| 25%      | 2.90   |
+| 50%      | 3.70   |
+| 75%      | 4.53   |
 
 
 
