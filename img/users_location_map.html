@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6ff594b730b16585e536d467d0a27d8a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6ff594b730b16585e536d467d0a27d8a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6ff594b730b16585e536d467d0a27d8a = L.map(
+                "map_6ff594b730b16585e536d467d0a27d8a",
+                {
+                    center: [33.135604119999996, -96.24024467000001],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_edb8d3887bb32a079e574b4fcb2c59da = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6ff594b730b16585e536d467d0a27d8a);
+        
+    
+            var marker_8960e3d9634fb66800dae307e48a4501 = L.marker(
+                [34.802243, -87.549346],
+                {}
+            ).addTo(map_6ff594b730b16585e536d467d0a27d8a);
+        
+    
+        var popup_b990a81b9576abc4eb2987068bd1b46d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14635a769bf02c3e297338feb4e95611 = $(`<div id="html_14635a769bf02c3e297338feb4e95611" style="width: 100.0%; height: 100.0%;">City: Kilcoole<br>Latitude: 34.802243<br>Longitude: -87.549346</div>`)[0];
+                popup_b990a81b9576abc4eb2987068bd1b46d.setContent(html_14635a769bf02c3e297338feb4e95611);
+            
+        
+
+        marker_8960e3d9634fb66800dae307e48a4501.bindPopup(popup_b990a81b9576abc4eb2987068bd1b46d)
+        ;
+
+        
+    
+    
+            var marker_7a85d42781185926ae390bca7d4718b1 = L.marker(
+                [34.802243, -87.549346],
+                {}
+            ).addTo(map_6ff594b730b16585e536d467d0a27d8a);
+        
+    
+        var popup_4376da24d0cf949b78462f4100f97824 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19a1bf68714460fb2ac443813e6d6c29 = $(`<div id="html_19a1bf68714460fb2ac443813e6d6c29" style="width: 100.0%; height: 100.0%;">City: Kilcoole<br>Latitude: 34.802243<br>Longitude: -87.549346</div>`)[0];
+                popup_4376da24d0cf949b78462f4100f97824.setContent(html_19a1bf68714460fb2ac443813e6d6c29);
+            
+        
+
+        marker_7a85d42781185926ae390bca7d4718b1.bindPopup(popup_4376da24d0cf949b78462f4100f97824)
+        ;
+
+        
+    
+    
+            var marker_20c05fb173373c678c8e4a36f0d8042d = L.marker(
+                [34.1335332, -86.8779268],
+                {}
+            ).addTo(map_6ff594b730b16585e536d467d0a27d8a);
+        
+    
+        var popup_cf3ecd41af0ff9714f04e431c785e678 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09da1a32fce9d02f260813ae1abdedab = $(`<div id="html_09da1a32fce9d02f260813ae1abdedab" style="width: 100.0%; height: 100.0%;">City: Cullman<br>Latitude: 34.1335332<br>Longitude: -86.8779268</div>`)[0];
+                popup_cf3ecd41af0ff9714f04e431c785e678.setContent(html_09da1a32fce9d02f260813ae1abdedab);
+            
+        
+
+        marker_20c05fb173373c678c8e4a36f0d8042d.bindPopup(popup_cf3ecd41af0ff9714f04e431c785e678)
+        ;
+
+        
+    
+    
+            var marker_3a4c3bcb43f7108f41d852d85adb6473 = L.marker(
+                [29.4246002, -98.4951405],
+                {}
+            ).addTo(map_6ff594b730b16585e536d467d0a27d8a);
+        
+    
+        var popup_2898ed6c1b9320e30f08b3ceb5825f3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02e9f71b11fcbfd215f0b27af7a95e56 = $(`<div id="html_02e9f71b11fcbfd215f0b27af7a95e56" style="width: 100.0%; height: 100.0%;">City: San Antonio<br>Latitude: 29.4246002<br>Longitude: -98.4951405</div>`)[0];
+                popup_2898ed6c1b9320e30f08b3ceb5825f3c.setContent(html_02e9f71b11fcbfd215f0b27af7a95e56);
+            
+        
+
+        marker_3a4c3bcb43f7108f41d852d85adb6473.bindPopup(popup_2898ed6c1b9320e30f08b3ceb5825f3c)
+        ;
+
+        
+    
+    
+            var marker_d78818ce1e8a0e09d14b57c76b878d49 = L.marker(
+                [29.4246002, -98.4951405],
+                {}
+            ).addTo(map_6ff594b730b16585e536d467d0a27d8a);
+        
+    
+        var popup_45f21df4925610e5bd9a019860ef4ff6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf252a5943879c57ad87852e76bc6ee9 = $(`<div id="html_cf252a5943879c57ad87852e76bc6ee9" style="width: 100.0%; height: 100.0%;">City: San Antonio<br>Latitude: 29.4246002<br>Longitude: -98.4951405</div>`)[0];
+                popup_45f21df4925610e5bd9a019860ef4ff6.setContent(html_cf252a5943879c57ad87852e76bc6ee9);
+            
+        
+
+        marker_d78818ce1e8a0e09d14b57c76b878d49.bindPopup(popup_45f21df4925610e5bd9a019860ef4ff6)
+        ;
+
+        
+    
+    
+            var marker_4656cc6a2e6c3ce790a1a2612d8118a7 = L.marker(
+                [31.7601164, -106.4870404],
+                {}
+            ).addTo(map_6ff594b730b16585e536d467d0a27d8a);
+        
+    
+        var popup_b5cbf1e47918443ea41474dbc7728159 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c91106ab1d472360da16c015c3cdb387 = $(`<div id="html_c91106ab1d472360da16c015c3cdb387" style="width: 100.0%; height: 100.0%;">City: El Paso<br>Latitude: 31.7601164<br>Longitude: -106.4870404</div>`)[0];
+                popup_b5cbf1e47918443ea41474dbc7728159.setContent(html_c91106ab1d472360da16c015c3cdb387);
+            
+        
+
+        marker_4656cc6a2e6c3ce790a1a2612d8118a7.bindPopup(popup_b5cbf1e47918443ea41474dbc7728159)
+        ;
+
+        
+    
+    
+            var marker_52fb91a9548f4ddbf3a420b33f39e9a6 = L.marker(
+                [36.7394421, -119.78483],
+                {}
+            ).addTo(map_6ff594b730b16585e536d467d0a27d8a);
+        
+    
+        var popup_acea19fbf46ce4aa4535ec76cc935499 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33a3d8ba714a19b242b8ac9a4f36e3ca = $(`<div id="html_33a3d8ba714a19b242b8ac9a4f36e3ca" style="width: 100.0%; height: 100.0%;">City: Fresno<br>Latitude: 36.7394421<br>Longitude: -119.78483</div>`)[0];
+                popup_acea19fbf46ce4aa4535ec76cc935499.setContent(html_33a3d8ba714a19b242b8ac9a4f36e3ca);
+            
+        
+
+        marker_52fb91a9548f4ddbf3a420b33f39e9a6.bindPopup(popup_acea19fbf46ce4aa4535ec76cc935499)
+        ;
+
+        
+    
+    
+            var marker_52b5bcfa54631d8d92c3ab9c1c860b22 = L.marker(
+                [33.4151005, -111.831455],
+                {}
+            ).addTo(map_6ff594b730b16585e536d467d0a27d8a);
+        
+    
+        var popup_d9b7b636fd1c9d8c7024d28d934c8bf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23a1cb99b2e73f96212eac8c7ea23740 = $(`<div id="html_23a1cb99b2e73f96212eac8c7ea23740" style="width: 100.0%; height: 100.0%;">City: Mesa<br>Latitude: 33.4151005<br>Longitude: -111.831455</div>`)[0];
+                popup_d9b7b636fd1c9d8c7024d28d934c8bf8.setContent(html_23a1cb99b2e73f96212eac8c7ea23740);
+            
+        
+
+        marker_52b5bcfa54631d8d92c3ab9c1c860b22.bindPopup(popup_d9b7b636fd1c9d8c7024d28d934c8bf8)
+        ;
+
+        
+    
+    
+            var marker_5adb76874b954feb3d252eee65b0113e = L.marker(
+                [25.7741728, -80.19362],
+                {}
+            ).addTo(map_6ff594b730b16585e536d467d0a27d8a);
+        
+    
+        var popup_7d77db0ac55326ec1153d3e5c354c6a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d3c2868284f6f554bd5ce50b6256d92 = $(`<div id="html_6d3c2868284f6f554bd5ce50b6256d92" style="width: 100.0%; height: 100.0%;">City: Miami<br>Latitude: 25.7741728<br>Longitude: -80.19362</div>`)[0];
+                popup_7d77db0ac55326ec1153d3e5c354c6a4.setContent(html_6d3c2868284f6f554bd5ce50b6256d92);
+            
+        
+
+        marker_5adb76874b954feb3d252eee65b0113e.bindPopup(popup_7d77db0ac55326ec1153d3e5c354c6a4)
+        ;
+
+        
+    
+    
+            var marker_3bc9127d126c0b7ecd18856b9fb68c4b = L.marker(
+                [41.0799898, -85.1386015],
+                {}
+            ).addTo(map_6ff594b730b16585e536d467d0a27d8a);
+        
+    
+        var popup_c1342be9b234c671546d5a0ae0ae2910 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e55419af82135497234fd0445146fb2d = $(`<div id="html_e55419af82135497234fd0445146fb2d" style="width: 100.0%; height: 100.0%;">City: Fort Wayne<br>Latitude: 41.0799898<br>Longitude: -85.1386015</div>`)[0];
+                popup_c1342be9b234c671546d5a0ae0ae2910.setContent(html_e55419af82135497234fd0445146fb2d);
+            
+        
+
+        marker_3bc9127d126c0b7ecd18856b9fb68c4b.bindPopup(popup_c1342be9b234c671546d5a0ae0ae2910)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_13413ac0afeca95fd978dbf9a985e69f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_13413ac0afeca95fd978dbf9a985e69f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_13413ac0afeca95fd978dbf9a985e69f = L.map(
+                "map_13413ac0afeca95fd978dbf9a985e69f",
+                {
+                    center: [33.135604119999996, -96.24024467000001],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_65deaf955db47aa468a681ee715296bc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_13413ac0afeca95fd978dbf9a985e69f);
+        
+    
+            var circle_marker_f7ae3705db4d8e72f27db0fb7baf1041 = L.circleMarker(
+                [34.802243, -87.549346],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_13413ac0afeca95fd978dbf9a985e69f);
+        
+    
+        var popup_b4299a5be50f01b1204ae2788497e9bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af2f56c9b3b0d2ac9f843ccf4a141dae = $(`<div id="html_af2f56c9b3b0d2ac9f843ccf4a141dae" style="width: 100.0%; height: 100.0%;">City: Kilcoole<br>Number of Users: 2<br></div>`)[0];
+                popup_b4299a5be50f01b1204ae2788497e9bb.setContent(html_af2f56c9b3b0d2ac9f843ccf4a141dae);
+            
+        
+
+        circle_marker_f7ae3705db4d8e72f27db0fb7baf1041.bindPopup(popup_b4299a5be50f01b1204ae2788497e9bb)
+        ;
+
+        
+    
+    
+            var circle_marker_1d1c8f0c2c25f2e6135d868a4cde5ad6 = L.circleMarker(
+                [29.4246002, -98.4951405],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_13413ac0afeca95fd978dbf9a985e69f);
+        
+    
+        var popup_57ece8a0ba9f9c030c664fd07cf59eee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c39e5b933fc5034e756d602ee2332113 = $(`<div id="html_c39e5b933fc5034e756d602ee2332113" style="width: 100.0%; height: 100.0%;">City: San Antonio<br>Number of Users: 2<br></div>`)[0];
+                popup_57ece8a0ba9f9c030c664fd07cf59eee.setContent(html_c39e5b933fc5034e756d602ee2332113);
+            
+        
+
+        circle_marker_1d1c8f0c2c25f2e6135d868a4cde5ad6.bindPopup(popup_57ece8a0ba9f9c030c664fd07cf59eee)
+        ;
+
+        
+    
+    
+            var circle_marker_d90fedf2e46fd3854189873ecb8abc19 = L.circleMarker(
+                [34.1335332, -86.8779268],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_13413ac0afeca95fd978dbf9a985e69f);
+        
+    
+        var popup_730d951252a75019f5415f1b49466330 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7fd22ab0294c7d836d16037708e3dd4 = $(`<div id="html_b7fd22ab0294c7d836d16037708e3dd4" style="width: 100.0%; height: 100.0%;">City: Cullman<br>Number of Users: 1<br></div>`)[0];
+                popup_730d951252a75019f5415f1b49466330.setContent(html_b7fd22ab0294c7d836d16037708e3dd4);
+            
+        
+
+        circle_marker_d90fedf2e46fd3854189873ecb8abc19.bindPopup(popup_730d951252a75019f5415f1b49466330)
+        ;
+
+        
+    
+    
+            var circle_marker_be73f58eaa857a9b7697a1177b40f47d = L.circleMarker(
+                [31.7601164, -106.4870404],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_13413ac0afeca95fd978dbf9a985e69f);
+        
+    
+        var popup_6050a05831c352011f2a78d1a84c9ca1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dc258bb8426038465744f0f7d86dff3 = $(`<div id="html_8dc258bb8426038465744f0f7d86dff3" style="width: 100.0%; height: 100.0%;">City: El Paso<br>Number of Users: 1<br></div>`)[0];
+                popup_6050a05831c352011f2a78d1a84c9ca1.setContent(html_8dc258bb8426038465744f0f7d86dff3);
+            
+        
+
+        circle_marker_be73f58eaa857a9b7697a1177b40f47d.bindPopup(popup_6050a05831c352011f2a78d1a84c9ca1)
+        ;
+
+        
+    
+    
+            var circle_marker_da992c793e2a47dcf0e5180b51ed8219 = L.circleMarker(
+                [36.7394421, -119.78483],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_13413ac0afeca95fd978dbf9a985e69f);
+        
+    
+        var popup_471d2caf0db909be9b7cc85c91d1c92f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bdddc34540b7d2f0e9a5a925ee7e0ec = $(`<div id="html_2bdddc34540b7d2f0e9a5a925ee7e0ec" style="width: 100.0%; height: 100.0%;">City: Fresno<br>Number of Users: 1<br></div>`)[0];
+                popup_471d2caf0db909be9b7cc85c91d1c92f.setContent(html_2bdddc34540b7d2f0e9a5a925ee7e0ec);
+            
+        
+
+        circle_marker_da992c793e2a47dcf0e5180b51ed8219.bindPopup(popup_471d2caf0db909be9b7cc85c91d1c92f)
+        ;
+
+        
+    
+    
+            var circle_marker_32db78150c2f26cf394d9361a0ccc53c = L.circleMarker(
+                [33.4151005, -111.831455],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_13413ac0afeca95fd978dbf9a985e69f);
+        
+    
+        var popup_e4e506148bb2d0da778f75bbd58a94fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7c61dcc0ce83c406e0b160b3b8fbf64 = $(`<div id="html_d7c61dcc0ce83c406e0b160b3b8fbf64" style="width: 100.0%; height: 100.0%;">City: Mesa<br>Number of Users: 1<br></div>`)[0];
+                popup_e4e506148bb2d0da778f75bbd58a94fb.setContent(html_d7c61dcc0ce83c406e0b160b3b8fbf64);
+            
+        
+
+        circle_marker_32db78150c2f26cf394d9361a0ccc53c.bindPopup(popup_e4e506148bb2d0da778f75bbd58a94fb)
+        ;
+
+        
+    
+    
+            var circle_marker_3c921e6ce39d9b9c6a268e17ed15ba7b = L.circleMarker(
+                [25.7741728, -80.19362],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_13413ac0afeca95fd978dbf9a985e69f);
+        
+    
+        var popup_19dfdfe12d14bb02c4138664cad73b73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_497041b0985b8505a2e6fbbe64d364b3 = $(`<div id="html_497041b0985b8505a2e6fbbe64d364b3" style="width: 100.0%; height: 100.0%;">City: Miami<br>Number of Users: 1<br></div>`)[0];
+                popup_19dfdfe12d14bb02c4138664cad73b73.setContent(html_497041b0985b8505a2e6fbbe64d364b3);
+            
+        
+
+        circle_marker_3c921e6ce39d9b9c6a268e17ed15ba7b.bindPopup(popup_19dfdfe12d14bb02c4138664cad73b73)
+        ;
+
+        
+    
+    
+            var circle_marker_bbbbb93e98b75d6ecf096e1532ac5ff5 = L.circleMarker(
+                [41.0799898, -85.1386015],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_13413ac0afeca95fd978dbf9a985e69f);
+        
+    
+        var popup_7706fa31511cda59b89958ef23ee411b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08775e96d746a7e2034ffc5b01f42ca5 = $(`<div id="html_08775e96d746a7e2034ffc5b01f42ca5" style="width: 100.0%; height: 100.0%;">City: Fort Wayne<br>Number of Users: 1<br></div>`)[0];
+                popup_7706fa31511cda59b89958ef23ee411b.setContent(html_08775e96d746a7e2034ffc5b01f42ca5);
+            
+        
+
+        circle_marker_bbbbb93e98b75d6ecf096e1532ac5ff5.bindPopup(popup_7706fa31511cda59b89958ef23ee411b)
+        ;
+
+        
+    
+</script>
+</html>

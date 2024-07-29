@@ -17,6 +17,10 @@ The following steps were carried out:
 4. **Conclusion**: A report of insights was prepared in the project's 'README' file to facilitate consultation and visualization for interested parties.
 
 # **Results**
+## **Products**
+
+
+
 
 # **References**
 - **FakeStore API:** https://fakestoreapi.com/
