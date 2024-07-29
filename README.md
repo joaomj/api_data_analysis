@@ -83,6 +83,23 @@ Average price ber cart was $670.18
 
 The correlation between price per cart and number of items per cart is: 0.94
 
+## **Users**
+
+### Users cities
+
+![Users Cities](img/users_cities.png)
+
+Users cities: 
+    - Kilcoole
+    - Cullman
+    - San Antonio
+    - El Paso
+    - Fresno
+    - Mesa
+    - Miami
+    - Fort Wayne
+
+
 # **References**
 - **FakeStore API:** https://fakestoreapi.com/
 - **Nominatim usage policy:** https://operations.osmfoundation.org/policies/nominatim/
