@@ -39,6 +39,29 @@ The following steps were carried out:
 | 50%      | 3.70   |
 | 75%      | 4.53   |
 
+### Median Prices per Category
+
+![Median Prices per Category](img/median_prices_per_category.png)
+
+### Median Rating per Category
+
+![Median Rating per Category](img/median_ratings_per_category.png)
+
+### Categories with most Rates
+
+![Median Number of Rates per Category](img/median_number_of_ratings_per_category.png)
+
+### Highest Rated Products
+
+## Product Ratings
+
+| Title                                                     | Weighted Rating |
+|-----------------------------------------------------------|-----------------|
+| WD 4TB Gaming Drive Works with Playstation 4            | 4.8             |
+| Silicon Power 256GB SSD 3D NAND A55 SLC Cache            | 4.8             |
+| Mens Cotton Jacket                                       | 4.7             |
+| MBJ Women's Solid Short Sleeve Boat Neck V               | 4.7             |
+| John Hardy Women's Legends Naga Gold & Silver Dragon Ring | 4.6             |
 
 
 # **References**
