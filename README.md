@@ -19,7 +19,6 @@ The following steps were carried out:
 # **Results**
 ## **Products**
 ### Prices and Ratings Distribution
-![Prices and Ratings Distribution](img/dist_prices_ratings_boxplot.png)
 
 **Price Quartiles**
 
