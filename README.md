@@ -53,8 +53,6 @@ The following steps were carried out:
 
 ### Highest Rated Products
 
-## Product Ratings
-
 | Title                                                     | Weighted Rating |
 |-----------------------------------------------------------|-----------------|
 | WD 4TB Gaming Drive Works with Playstation 4            | 4.8             |
@@ -63,6 +61,11 @@ The following steps were carried out:
 | MBJ Women's Solid Short Sleeve Boat Neck V               | 4.7             |
 | John Hardy Women's Legends Naga Gold & Silver Dragon Ring | 4.6             |
 
+## **Carts**
+
+### Daily Sales per Category
+
+![Daily Sales per Category](img/daily_sales.png)
 
 # **References**
 - **FakeStore API:** https://fakestoreapi.com/
