@@ -31,13 +31,13 @@ git clone https://github.com/joaomj/api_data_analysis.git
 
 2. Create virtual environment for this  (i used *miniconda* as my virtual environment management system)
 
-```python 
+```bash 
 conda create --name <environment_name>
 ```
 
 3. Install dependencies
 
-```python 
+```bash 
 conda install --yes --file requirements.txt
 ```
 
